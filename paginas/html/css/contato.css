@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url(fonts/Cocogoose\ Pro\ Semilight-trial.ttf);
+}
+
+body {
+  font-family: Cocogoose;
+}
+
+.caixa {
+  width: 980px;
+  position: relative;
+  margin: auto;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: x-large;
+  margin: 0 0 0 34px;
+  color: inherit;
+
+}
+
+a:hover {
+  border-bottom: 5px solid #336981;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+
+}
+
+
+nav {
+  position: absolute;
+  top: 75px;
+  margin: 0 auto;
+  right: 0; 
+  background-color: #EAC930;
+  width: 30em;
+  border-radius: 8px;
+  padding: 10px;
+
+}
+
+.borboleta-header {
+  width: 10em;
+
+}
+.espaco{
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 80px;
+}
+h1 {
+
+  text-align: center;
+}
+
+
+.logo{
+  width: 40px; 
+  float: left;
+}
+.insta{
+ width: 600px;
+ margin-bottom:29px ;
+  
+}
+.whats{
+  width:600px;
+  
+}
+.txt { 
+  width:600px ;
+  left: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.insta_txt{
+  position: relative;
+  top: 5px;
+  right: 30px;
+  color: inherit;
+
+}
+
+.formdiv {
+  background-color: #E5E5E5;
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 3px 3px  grey;
+  position: relative;
+  top: 15px;
+  margin-bottom: 10px;
+
+
+}
+
+.png {
+  width: 5em;
+  position: absolute;
+  right: 11px;
+  top: 14px ;
+  z-index: 1;
+  
+}
+
+input {
+  border: none;
+  border-radius: 20px;
+  background-color: #EAC930;
+}
+
+.textoemail {
+  text-align: center;
+  border-radius: 50px;
+  position: relative;
+  margin: 0 auto;
+
+
+}
+
+textarea {
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  background-color: #EAC930;
+}
+
+.Mensagem {
+  text-align: center;
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 20px;
+  height: 20px;
+  width: 80px;
+  background-color: #336981;
+  border: none;
+  color: white;
+}
+
+.button {
+  text-align: center;
+
+}
+
+footer {
+  text-align: center;
+
+}
+hr{
+  border: none;
+  background: #EAC930;
+  height: 6px;
+  width: auto;
+}
+
+.borboleta-footer {
+  width: 5em;
+}

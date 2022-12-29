@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:Cocogoose ;
+  src: url(fonts/Cocogoose\ Pro\ Semilight-trial.ttf);
+}
+body{
+  font-family:Cocogoose;
+}
+.caixa{
+  width: 980px;
+  position: relative;
+  margin: auto;
+  
+}
+a{
+  text-decoration: none;
+  font-size: x-large;
+  margin: 0 0 0 34px;
+  color: inherit;
+
+  
+
+  
+}
+
+
+
+li{
+  display: inline-block
+  
+  
+}
+
+nav {
+  position: absolute;
+  top: 75px;
+  margin: 0 auto;
+  right: 0;
+  background-color: #EAC930;
+  width: 30em;
+  border-radius: 8px;
+  padding: 10px;
+   
+}
+ a:hover{
+    border-bottom: 5px solid  #336981;
+    text-decoration: none;
+  
+
+}
+p{
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.historia{
+  width: 980px;
+  margin:0 auto;
+  text-align: center;
+  margin-bottom: 27px;
+  
+}
+.mp{
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 27px;
+  
+}
+  .borboleta-header{
+   width:10em ;
+   
+  
+  }
+  .decoracao{
+  width: 14em;
+  border-radius: 30%;
+  float: left;
+  margin-right: 5px;
+  }
+  figure.pla img{
+   width: 15em;
+  border-radius: 30%;
+  float: right;
+  margin-left: 5px ;
+  }
+  figure.pla{
+    text-align: right;
+    border: black;
+
+  }
+   footer{
+    text-align: center;
+  }
+  hr{
+    border: none;
+    background: #EAC930;
+    height: 6px;
+    width: 0 auto;
+  }
+  
+  .borboleta-footer{
+    width:5em;
+  }
+ 
+  
+  
+  
+
+    
+   
+

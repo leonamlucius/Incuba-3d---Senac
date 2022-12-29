@@ -1,0 +1,2 @@
+18:40:33:907 [ALWAYS]	GUDE Logging Started
+18:40:33:999 [INFO]	gude policy POLICY_USER limit (4,4,1) chunk 2097152, chunking (UL 0 DL 1), resXfer 1, adapt 0, NSURL 1, timeout 86400 
